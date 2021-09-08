@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace CajeroAutomatico_TL2_Semena4_
 {
-    interface Cuenta
+    public enum TipoExtraccion
     {
+        CajeroHumano = 1,
+        CajeroAutomatico = 2
+    }
+    public interface Cuenta
+    {
+        public int Insercion(int monto);
+        public int Extraccion(int monto, TipoExtraccion tipo);
     }
 }

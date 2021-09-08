@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CajeroAutomatico_TL2_Semena4_
 {
-    class CtaCteDollars
+    class CtaCteDolares
     {
     }
 }
