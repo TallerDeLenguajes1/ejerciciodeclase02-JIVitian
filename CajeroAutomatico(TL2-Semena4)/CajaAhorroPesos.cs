@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace CajeroAutomatico_TL2_Semena4_
 {
-    class CajaAhorroPesos
+    public class CajaAhorroPesos : Cuenta
     {
+        public int Extraccion(int monto, TipoExtraccion tipo)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int Insercion(int monto)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
